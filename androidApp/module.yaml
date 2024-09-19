@@ -4,8 +4,9 @@ dependencies:
   - ../shared
   - $libs.androidx.compose.ui.tooling.preview
   - $libs.androidx.activity.compose
+  - $compose.foundation
 
-settings: 
+settings:
   compose: enabled
   android:
     applicationId: com.jetbrains.kmpapp
